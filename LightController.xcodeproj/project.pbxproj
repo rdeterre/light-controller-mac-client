@@ -10,7 +10,6 @@
 		8503D740175DA74100241D1C /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503D73F175DA74000241D1C /* libcurl.dylib */; };
 		851D39DB176026150000610E /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851D39DA176026150000610E /* LightController.m */; };
 		85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BFE3491761586A00C22555 /* LightControllerIcon_black.png */; };
-		85BFE34C1761587400C22555 /* LightControllerIcon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BFE34B1761587400C22555 /* LightControllerIcon_black.png */; };
 		DD4F7C0913C30F9F00825C6E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4F7C0813C30F9F00825C6E /* Cocoa.framework */; };
 		DD4F7C1513C30F9F00825C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1413C30F9F00825C6E /* main.m */; };
 		DD4F7C1C13C30F9F00825C6E /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C1B13C30F9F00825C6E /* ApplicationDelegate.m */; };
@@ -32,7 +31,6 @@
 		851D39D9176026150000610E /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightController.h; sourceTree = "<group>"; };
 		851D39DA176026150000610E /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
 		85BFE3491761586A00C22555 /* LightControllerIcon_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightControllerIcon_black.png; sourceTree = "<group>"; };
-		85BFE34B1761587400C22555 /* LightControllerIcon_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightControllerIcon_black.png; sourceTree = "<group>"; };
 		DD4F7C0413C30F9F00825C6E /* LightController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4F7C0813C30F9F00825C6E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DD4F7C0B13C30F9F00825C6E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -77,7 +75,6 @@
 		DD4F7BF913C30F9F00825C6E = {
 			isa = PBXGroup;
 			children = (
-				85BFE34B1761587400C22555 /* LightControllerIcon_black.png */,
 				8503D73F175DA74000241D1C /* libcurl.dylib */,
 				DD4F7C0E13C30F9F00825C6E /* Sources */,
 				DD4F7C2813C3123E00825C6E /* User Interface */,
@@ -242,7 +239,6 @@
 				DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */,
 				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
 				85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */,
-				85BFE34C1761587400C22555 /* LightControllerIcon_black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

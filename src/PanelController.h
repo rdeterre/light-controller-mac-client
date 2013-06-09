@@ -34,4 +34,6 @@
 - (void)openPanel;
 - (void)closePanel;
 
+- (NSRect)statusRectForWindow:(NSWindow *)window;
+
 @end
