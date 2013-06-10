@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4A3EB39D17656CB200AF210D /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB39C17656CB200AF210D /* Status@2x.png */; };
+		4A3EB3AF1765751D00AF210D /* icon_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3A61765751D00AF210D /* icon_128x128.png */; };
+		4A3EB3B01765751D00AF210D /* icon_128x128@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3A71765751D00AF210D /* icon_128x128@2x.png */; };
+		4A3EB3B11765751D00AF210D /* icon_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3A81765751D00AF210D /* icon_16x16.png */; };
+		4A3EB3B21765751D00AF210D /* icon_16x16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3A91765751D00AF210D /* icon_16x16@2x.png */; };
+		4A3EB3B31765751D00AF210D /* icon_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3AA1765751D00AF210D /* icon_256x256.png */; };
+		4A3EB3B41765751D00AF210D /* icon_256x256@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3AB1765751D00AF210D /* icon_256x256@2x.png */; };
+		4A3EB3B51765751D00AF210D /* icon_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3AC1765751D00AF210D /* icon_32x32.png */; };
+		4A3EB3B61765751D00AF210D /* icon_32x32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3AD1765751D00AF210D /* icon_32x32@2x.png */; };
+		4A3EB3B71765751D00AF210D /* icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB3AE1765751D00AF210D /* icon_512x512.png */; };
 		8503D740175DA74100241D1C /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503D73F175DA74000241D1C /* libcurl.dylib */; };
 		851D39DB176026150000610E /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851D39DA176026150000610E /* LightController.m */; };
 		85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BFE3491761586A00C22555 /* LightControllerIcon_black.png */; };
@@ -28,6 +37,15 @@
 
 /* Begin PBXFileReference section */
 		4A3EB39C17656CB200AF210D /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
+		4A3EB3A61765751D00AF210D /* icon_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_128x128.png; sourceTree = "<group>"; };
+		4A3EB3A71765751D00AF210D /* icon_128x128@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_128x128@2x.png"; sourceTree = "<group>"; };
+		4A3EB3A81765751D00AF210D /* icon_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_16x16.png; sourceTree = "<group>"; };
+		4A3EB3A91765751D00AF210D /* icon_16x16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_16x16@2x.png"; sourceTree = "<group>"; };
+		4A3EB3AA1765751D00AF210D /* icon_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_256x256.png; sourceTree = "<group>"; };
+		4A3EB3AB1765751D00AF210D /* icon_256x256@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_256x256@2x.png"; sourceTree = "<group>"; };
+		4A3EB3AC1765751D00AF210D /* icon_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_32x32.png; sourceTree = "<group>"; };
+		4A3EB3AD1765751D00AF210D /* icon_32x32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_32x32@2x.png"; sourceTree = "<group>"; };
+		4A3EB3AE1765751D00AF210D /* icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512x512.png; sourceTree = "<group>"; };
 		8503D73F175DA74000241D1C /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		851D39D9176026150000610E /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightController.h; sourceTree = "<group>"; };
 		851D39DA176026150000610E /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
@@ -72,9 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A3EB3A51765751D00AF210D /* LightControllerIcon.iconset */ = {
+			isa = PBXGroup;
+			children = (
+				4A3EB3A61765751D00AF210D /* icon_128x128.png */,
+				4A3EB3A71765751D00AF210D /* icon_128x128@2x.png */,
+				4A3EB3A81765751D00AF210D /* icon_16x16.png */,
+				4A3EB3A91765751D00AF210D /* icon_16x16@2x.png */,
+				4A3EB3AA1765751D00AF210D /* icon_256x256.png */,
+				4A3EB3AB1765751D00AF210D /* icon_256x256@2x.png */,
+				4A3EB3AC1765751D00AF210D /* icon_32x32.png */,
+				4A3EB3AD1765751D00AF210D /* icon_32x32@2x.png */,
+				4A3EB3AE1765751D00AF210D /* icon_512x512.png */,
+			);
+			path = LightControllerIcon.iconset;
+			sourceTree = "<group>";
+		};
 		DD4F7BF913C30F9F00825C6E = {
 			isa = PBXGroup;
 			children = (
+				4A3EB3A51765751D00AF210D /* LightControllerIcon.iconset */,
 				8503D73F175DA74000241D1C /* libcurl.dylib */,
 				DD4F7C0E13C30F9F00825C6E /* Sources */,
 				DD4F7C2813C3123E00825C6E /* User Interface */,
@@ -239,6 +274,15 @@
 				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
 				85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */,
 				4A3EB39D17656CB200AF210D /* Status@2x.png in Resources */,
+				4A3EB3AF1765751D00AF210D /* icon_128x128.png in Resources */,
+				4A3EB3B01765751D00AF210D /* icon_128x128@2x.png in Resources */,
+				4A3EB3B11765751D00AF210D /* icon_16x16.png in Resources */,
+				4A3EB3B21765751D00AF210D /* icon_16x16@2x.png in Resources */,
+				4A3EB3B31765751D00AF210D /* icon_256x256.png in Resources */,
+				4A3EB3B41765751D00AF210D /* icon_256x256@2x.png in Resources */,
+				4A3EB3B51765751D00AF210D /* icon_32x32.png in Resources */,
+				4A3EB3B61765751D00AF210D /* icon_32x32@2x.png in Resources */,
+				4A3EB3B71765751D00AF210D /* icon_512x512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
