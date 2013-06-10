@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A3EB39D17656CB200AF210D /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A3EB39C17656CB200AF210D /* Status@2x.png */; };
 		8503D740175DA74100241D1C /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8503D73F175DA74000241D1C /* libcurl.dylib */; };
 		851D39DB176026150000610E /* LightController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851D39DA176026150000610E /* LightController.m */; };
 		85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BFE3491761586A00C22555 /* LightControllerIcon_black.png */; };
@@ -22,11 +23,11 @@
 		DD4F7C4713C3208500825C6E /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F7C4613C3208500825C6E /* BackgroundView.m */; };
 		DD4F7C4B13C322FA00825C6E /* Status.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4913C322FA00825C6E /* Status.png */; };
 		DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */; };
-		DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAB16C80A510044D141 /* Status@2x.png */; };
 		DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A3EB39C17656CB200AF210D /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
 		8503D73F175DA74000241D1C /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		851D39D9176026150000610E /* LightController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightController.h; sourceTree = "<group>"; };
 		851D39DA176026150000610E /* LightController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightController.m; sourceTree = "<group>"; };
@@ -55,7 +56,6 @@
 		DD4F7C4613C3208500825C6E /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
 		DD4F7C4913C322FA00825C6E /* Status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Status.png; sourceTree = "<group>"; };
 		DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StatusHighlighted.png; sourceTree = "<group>"; };
-		DDF4EFAB16C80A510044D141 /* Status@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Status@2x.png"; sourceTree = "<group>"; };
 		DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusHighlighted@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,9 +173,9 @@
 		DD4F7C4813C322D800825C6E /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				4A3EB39C17656CB200AF210D /* Status@2x.png */,
 				85BFE3491761586A00C22555 /* LightControllerIcon_black.png */,
 				DD4F7C4913C322FA00825C6E /* Status.png */,
-				DDF4EFAB16C80A510044D141 /* Status@2x.png */,
 				DD4F7C4A13C322FA00825C6E /* StatusHighlighted.png */,
 				DDF4EFAD16C80AD30044D141 /* StatusHighlighted@2x.png */,
 			);
@@ -236,9 +236,9 @@
 				DD4F7C4113C31B4A00825C6E /* Panel.xib in Resources */,
 				DD4F7C4B13C322FA00825C6E /* Status.png in Resources */,
 				DD4F7C4C13C322FA00825C6E /* StatusHighlighted.png in Resources */,
-				DDF4EFAC16C80A510044D141 /* Status@2x.png in Resources */,
 				DDF4EFAE16C80AD30044D141 /* StatusHighlighted@2x.png in Resources */,
 				85BFE34A1761586A00C22555 /* LightControllerIcon_black.png in Resources */,
+				4A3EB39D17656CB200AF210D /* Status@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 		DD4F7C2313C30F9F00825C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/LightController-Prefix.pch";
@@ -345,7 +345,7 @@
 		DD4F7C2413C30F9F00825C6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/LightController-Prefix.pch";
